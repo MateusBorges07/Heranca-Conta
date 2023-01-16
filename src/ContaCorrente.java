@@ -1,6 +1,12 @@
-public class ContaCorrente extends Conta {
+public class ContaCorrente extends Conta{
 
-    public ContaCorrente(){
+    public ContaCorrente(int agencia, int numero){
+        super(agencia,numero);
+    }
 
+
+    @Override
+    public boolean saca(double valor) {
+        return super.saca(valor);
     }
 }
