@@ -1,7 +1,7 @@
-package teste;
+package br.com.bytebank.banco.teste;
 
-import modelo.CalculadorDeImposto;
-import modelo.SeguroDeVida;
+import br.com.bytebank.banco.modelo.CalculadorDeImposto;
+import br.com.bytebank.banco.modelo.SeguroDeVida;
 
 public class TesteTributavel {
     public static void main(String[] args) {
